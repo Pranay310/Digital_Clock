@@ -1,0 +1,68 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+.mdiv{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(https://wallpaperaccess.com/full/2825826.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+	position: relative;
+	right: 100px;
+	bottom: 250px;
+	height: 100px;
+	width: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/*	background-image: url(https://media.giphy.com/media/5xtDarw13NgjZf4sCxG/giphy.gif);*/
+/*	background: rgb(0, 0, 0, .1);*/
+/*	box-shadow: 0px 0px 20px black;*/
+/*	border-radius: 20px;*/
+	z-index: 5;
+}
+.t{
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+	background-image: url(https://66.media.tumblr.com/b3d1b07a12e08818d68fbbcefcf27040/tumblr_nz4bj9Xwin1v0ek19o1_500.gif);
+/*	background-color: transparent;*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+/*	background: rgb(0, 0, 0, .1);*/
+	box-shadow: 0px 0px 20px black;
+	border-radius: 20px;
+	font-size: 50px;
+	color: #ff00ff;
+	text-shadow: 5px 5px 10px black;
+}
+h1{
+	font-size: 50px;
+	color: #ff00ff;
+}
+.title{
+	position: relative;
+	top: 100px;
+	width: 100%;
+}
+.t h1::after{
+	content: "hours";
+	font-size: 16px;
+	position: absolute;
+	bottom: -5px;
+	left: 50%;
+	transform: translateX(-50px);
+
+}
