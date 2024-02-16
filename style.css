@@ -57,12 +57,3 @@ h1{
 	top: 100px;
 	width: 100%;
 }
-.t h1::after{
-	content: "hours";
-	font-size: 16px;
-	position: absolute;
-	bottom: -5px;
-	left: 50%;
-	transform: translateX(-50px);
-
-}
